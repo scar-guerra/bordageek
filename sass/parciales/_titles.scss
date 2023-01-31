@@ -1,0 +1,30 @@
+@mixin title-principal{
+    font-family: $font-subtitulo;
+    font-size: 55px;
+    color: #000000;
+    font-weight: 100;
+    margin-top: 12vh;
+}
+
+@mixin title-colec {
+    font-family: $font-subtitulo;
+    font-size: 22px;
+    margin: 0px;
+    padding: 10px 0px;
+    
+}
+
+@mixin subtitle-categoria {
+    font-family: $font-titulo;
+    font-size: 30px;
+    margin: 0px;
+    padding: 50px 0px;
+}
+.titulo_seccion{
+    @include title-principal;
+    @include movil{
+        font-family: $font-subtitulo;
+        font-size: 35px;
+    }
+}
+

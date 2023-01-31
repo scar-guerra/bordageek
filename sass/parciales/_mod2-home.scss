@@ -1,0 +1,113 @@
+
+.container.mod_2 {
+    text-align: center;
+    margin-top: 20vh;
+    @include movil{
+        text-align: center;
+        margin-top: 9vh;
+    }
+}
+
+.row.mod2_cajas {
+    align-items: center;
+    display: flex;
+    @include movil{
+        display: grid;
+        justify-items: center;
+        padding: 0px !important;
+    }
+}
+
+.section.mod_2 {
+    display: flex;
+    width: 80%;
+    align-items: center;
+    margin: auto;
+    margin-top: 10rem;
+    justify-content: space-evenly;
+}
+
+.foto1 {
+    box-sizing: border-box;
+    text-align: center;
+    width: 100%;
+    @include movil{
+        box-sizing: border-box;
+        text-align: center;
+        margin-bottom: 5vh;
+    }
+}
+
+img.foto_izq {
+    width: 85%;
+    border-radius: 10px;
+    @include movil{
+        width: 90%;
+        border-radius: 10px;
+    }
+}
+
+.texto_der {
+    text-align: justify;
+    width: 100%;
+    padding-left: 30px;
+    @include movil{
+        text-align: justify;
+        width: 100%;
+        padding: 0px 30px;
+    }
+}
+
+h2.titulo2 {
+    font-family: $font-titulo;
+    font-size: 40px;
+}
+
+span.destacado2 {
+    color: #bd80e8;
+    font-family: $font-subtitulo;
+    font-size: 70px;
+    -webkit-animation: tracking-in-expand 2s ease-in-out infinite alternate-reverse both;
+	        animation: tracking-in-expand 2s ease-in-out infinite alternate-reverse both;
+    @include movil{
+        color: #bd80e8;
+        font-family: $font-subtitulo;
+        font-size: 50px;
+    }
+}
+@-webkit-keyframes tracking-in-expand {
+    0% {
+      letter-spacing: -0.5em;
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @keyframes tracking-in-expand {
+    0% {
+      letter-spacing: -0.5em;
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      opacity: 1;
+    }
+  
+  }
+  
+p.parrafo2 {
+    font-family: $font-subtitulo;
+    font-size: 15px;
+    line-height: 27px;
+}
+
+.col-6.mob {
+    @include movil{
+        width: 100%;}
+}

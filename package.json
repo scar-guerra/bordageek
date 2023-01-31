@@ -1,0 +1,21 @@
+{
+  "name": "web_bordageek",
+  "version": "1.0.0",
+  "description": "paquete para compilar scss a css",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss sass/main.scss css/compilado.css --output-style expanded",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scar-guerra/bordageek.git"
+  },
+  "author": "Scarlet Guerra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/scar-guerra/bordageek/issues"
+  },
+  "homepage": "https://github.com/scar-guerra/bordageek#readme"
+}

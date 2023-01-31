@@ -1,0 +1,55 @@
+.banner_home {
+    background-image: url(../img/background_home.png);
+    height: 100%;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-repeat: no-repeat;
+    width: auto;
+    background-position: center;
+    @include movil{
+        background-image: url(../img/background_home.png);
+        height: 65%;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        background-repeat: no-repeat;
+        width: auto;
+        background-position: center;
+    }
+}
+
+h1.titulo {
+    font-family: $font-titulo;
+    font-size: 60px;
+    color: #000000;
+    font-weight: bold;
+    margin-bottom: 5vh;
+    @include movil{
+        font-family: 'Lexend', sans-serif;
+        font-size: 42px;
+        color: #000000;
+        font-weight: bold;
+        padding: 5vh;
+        margin-bottom: 0vh;
+    }
+}
+
+a.btn_banner {
+    padding: 20px 40px;
+    color: #bd80e8;
+    font-family: $font-subtitulo;
+    font-weight: 600;
+    border-radius: 40px;
+    border: 2px solid #bd80e8;
+    &:hover{
+        background-color: #bd80e8;
+        color: white;
+        transition: 0.5s;
+    }
+}
+

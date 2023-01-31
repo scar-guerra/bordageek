@@ -1,0 +1,21 @@
+.item{
+    font-family: $font-subtitulo;
+    text-align: center;
+    justify-content: center;
+    display: grid;
+    & .cuadro{
+        border: 1px dashed #bd80e8;
+        align-items: center;
+        display: flex;
+    }
+}
+
+.boton_form{
+    background-color: #bd80e8;
+    color: #fff;
+    padding: 11px 25px;
+    font-family: lora;
+    border: none;
+    border-radius: 25px;
+    font-size: 17px;
+}

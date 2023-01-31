@@ -1,0 +1,18 @@
+$font-titulo:'Lexend', sans-serif;
+$font-subtitulo:'Lora', serif;
+
+@each $portada in Coleccion, Nosotros, Contacto  {
+    .imgPortada#{$portada}{
+        background-image: url(../img/fondo#{$portada}.jpg);
+        height: 40%;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        background-repeat: no-repeat;
+        width: auto;
+        background-position: center;
+
+    }
+}

@@ -1,0 +1,104 @@
+.container.mod_3 {
+    width: 100%;
+}
+
+section.mod_3 {
+    text-align: center;
+    display: block;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}
+
+img.foto_coleccion {
+    width: 90%;
+}
+
+p.titulo3 {
+   @extend .titulo_seccion;
+   font-size: 45px;
+   margin-bottom: 40px;
+   @include movil{
+    font-family: $font-subtitulo;
+        font-size: 35px;
+        margin-top: 10vh;
+        color: #000000;
+        margin-bottom: 8vh;
+   }
+}
+.mob_3 {
+    display: flex;
+    width: 100%;
+    padding: 0px;
+    margin-bottom: 6vh;
+    @include movil{
+        display: grid;
+        width: 100%;
+        padding: 0px;
+        margin-bottom: 0vh;
+    }
+}
+
+p.titulo_coleccion {
+    @include title-colec;
+}
+
+a.btn_coleccion {
+    color: #602ebe;
+    font-family: 'Lora', serif;
+    font-size: 17px;
+    &:hover{
+        color: #c36cff;
+    }
+}
+
+.section_btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    border: 1px solid black;
+    padding: 0px 16px;
+    margin-top: 3vh;
+    box-shadow: 6px 6px;
+    width: 90%;
+}
+
+.titulo_colec_seccion{
+    @include subtitle-categoria;
+    @include movil{
+        text-align: center;
+        border: 1px solid #fdc9c0;
+        width: 72%;
+        margin: auto;
+        font-size: 28px;
+        padding: 13px;
+        box-shadow: 8px 8px #fdc9c0;
+        margin-bottom: 4rem;
+        font-family: $font-subtitulo;
+        margin-top: 20px;
+    }
+}
+
+.contenedor_colec.col-4{
+    @include movil{
+        width: 100%;
+        margin-bottom: 8vh;
+    }
+}
+
+.col-3.contenedor_colec{
+    @include movil{
+        padding: 0px;
+        width: auto;
+        margin-bottom: 5vh;
+    }
+}
+
+.coleccion_grilla2{
+    @include movil{
+        display: grid;
+        width: 100%;
+        margin: auto;
+        justify-items: center;
+    }
+}

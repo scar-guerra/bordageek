@@ -1,0 +1,75 @@
+.footer {
+    background-image: url(../img/footer_img.png);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    width: 100%;
+    background-repeat: no-repeat;
+    margin-top: 15vh;
+    @include movil{
+        margin-top: 5vh;
+    }
+}
+
+p.titulo_logo {
+    font-family:  $font-subtitulo;
+    font-size: 50px;
+    padding: 0px;
+}
+.row.col-12.cajas_1 {
+    justify-content: center !important;
+    padding: 0vh 5vh;
+}
+.col-6.caja_1 {
+    padding: 15px 21px;
+    text-align: left;
+}
+
+p.bajada_texto {
+    font-family:  $font-subtitulo;
+}
+
+p.titulo_caja2 {
+    font-size: 30px;
+    font-family: $font-subtitulo;
+    margin: 10px;
+    text-align: end;
+    @include movil{
+        font-size: 30px;
+        font-family: 'Lora', serif;
+        margin: 10px;
+        text-align: center;
+    }
+}
+
+.icon_rrss {
+    list-style: none;
+    display: flex;
+    font-size: 25px;
+    justify-content: end;
+    @include movil{
+        list-style: none;
+        display: flex;
+        font-size: 25px;
+        justify-content: center;
+    }
+}
+
+li.rrss {
+    padding: 12px;
+}
+
+.col-6.col-md-4.caja_1.mob{
+    @include movil {
+        text-align: center;
+    }
+}
+
+.row.col-12.cajas_1.mob{
+    @include movil{
+        display: grid;
+        text-align: center;
+    }
+}
