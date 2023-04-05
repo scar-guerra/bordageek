@@ -379,9 +379,9 @@ p.titulo3 {
     color: #000000;
     margin-bottom: 8vh;
   }
-}
-.bordadosdestacados{
-  display: grid;
+  #bordadosdestacados{
+    display: grid !important;
+  }
 }
 .mob_3 {
   display: flex;
