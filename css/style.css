@@ -474,6 +474,9 @@ p.btn_f {
         padding: 5vh;
         margin-bottom: 0vh;
     }
+    #bordadosdestacados{
+        display: grid !important;
+      }
     
    
     .banner_home {
