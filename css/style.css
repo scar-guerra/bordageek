@@ -1,7 +1,9 @@
+
 body {
     margin: 0px;
 }
-
+a:hover { text-decoration: none !important; 
+}
 /* HEADER */
 
 .navbar {
@@ -12,6 +14,14 @@ body {
     position:absolute;
 }
 
+.container.tcarro {
+    padding-top: 3rem;
+}
+tr.btn_coleccion {
+    color: #602ebe;
+    font-family: "Lora", serif;
+    font-size: 18px;
+}
 .navbar-collapse {
     flex-basis: 100%;
     flex-grow: 1;
@@ -27,6 +37,21 @@ body {
 
 .container {
     text-align: center;
+}
+
+.material-symbols-outlined {
+    font-family: 'Material Symbols Outlined';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 28px !important;
+    letter-spacing: normal;
+    text-transform: none;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr; 
+    -webkit-font-smoothing: antialiased;
+    align-items: center !important;
+    display: flex !important;
 }
 
 li.btn_nav {
@@ -87,6 +112,7 @@ a.btn_banner {
     font-weight: 600;
     border-radius: 40px;
     border: 2px solid #bd80e8;
+    
 }
 
 a.btn_banner:hover {
