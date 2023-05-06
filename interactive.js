@@ -8,10 +8,10 @@
     showCancelButton: true,
     focusConfirm: false,
     confirmButtonText:
-      '<div style="font-weight: 800;font-family:Lora, sans-serif; color:#fff !important;"><a style="    padding: 15px;color:#fff !important" href="/carrito.html">Ir a la Tienda! 🛍</a></div>',
+      '<div style="font-weight: 800;font-family:Lora, sans-serif; color:#fff !important;"><a style="    padding: 15px;color:#fff !important" href="./carrito.html">Ir a la Tienda! 🛍</a></div>',
     confirmButtonAriaLabel: 'Thumbs up, great!',
     cancelButtonText:
-      '<div style="font-weight: 800;font-family:Lora, sans-serif;color:#fff;"><a style="    padding: 15px;color:#fff !important" href="/coleccionfav.html">Nuestros Favoritos ⭐️</a></div>',
+      '<div style="font-weight: 800;font-family:Lora, sans-serif;color:#fff;"><a style="    padding: 15px;color:#fff !important" href="./coleccionfav.html">Nuestros Favoritos ⭐️</a></div>',
     cancelButtonAriaLabel: 'Thumbs down',
     cancelButtonColor: '#c8aaff',
     confirmButtonColor:'#9a63fd'
