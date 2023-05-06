@@ -8,7 +8,9 @@
        <meta name="keywords" content="bordados, geek, nintendo, pixel art, pixel, pokemon, punto cruz, design, embroidery">
         <link rel="stylesheet" href="css/compilado.css">
         <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Lexend:wght@200;400;700;800&family=Lora:wght@400;700&display=swap" rel="stylesheet">
-        <script src="https://kit.fontawesome.com/5f240a9a7c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    
+    <script src="https://kit.fontawesome.com/5f240a9a7c.js" crossorigin="anonymous"></script>
         <title>Bordageek</title>
     </head>
     <body>
@@ -37,6 +39,10 @@
                   <li class="btn_nav">
                     <a class="nav-link" href="contacto.html">Contacto</a>
                   </li>
+                  <li class="btn_nav">
+                    <a class="material-symbols-outlined" href="./carrito.html"style="    color: #7429aa;    font-size: 28px;
+                    line-height: inherit;">shopping_cart</a>
+                  </li>
                 </ul>
               </div>
             </div>
@@ -48,20 +54,54 @@
 
           <main class="imgPortadaColeccion">
             <div class="titulo_boton">
-                <h1 class="titulo_seccion">COLECCIÓN 2023</h1>
+                <h1 class="titulo_seccion">COLECCIÓN FAVORITA</h1>
             </div>
         </main>
 
 
-    <section class="container mod_3_coleccion">
-        <p class="titulo_colec_seccion">Series</p>
+    <section class="container mod_3_coleccion table-responsive">
+      <table style="text-align: center; margin-top: 3rem;" class="table">
+        <thead>
+          <tr>
+            <th style=" color: #7f31b7;font-family:Lora, serif;font-size: 20px;margin: 0px;padding: 10px 0px;" class="foto_coleccion">Personaje ⭐️</th>
+            <th style="color: #bd80e8;font-family:Lora, serif;font-size: 20px;margin: 0px;padding: 10px 0px;" class="titulo_coleccion">Especie 👾</th>
+            <th style="color: #7f31b7;font-family:Lora, serif;font-size: 20px;margin: 0px;padding: 10px 0px;" class="titulo_coleccion">Fotografía 📸</th>
+          </tr>
+        </thead>
+
+        <tbody id="rickmorty">
+
+        </tbody>
+
+
+      </table>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+      <!--
+
+
+
+        row coleccion_grilla2
+
+
+        <p class="titulo_colec_seccion">Pokémon</p>
         <div class="row coleccion_grilla2">
             <div class="col-3 contenedor_colec">
         
-            <img class="foto_coleccion" src="./img/snoopy.jpeg" alt="pokemon">
+            <img class="foto_coleccion" src="./img/poke1.jpeg" alt="pokemon">
             <div class="section_btn2">
         
-            <p class="titulo_coleccion">Snoopy</p>
+            <th class="titulo_coleccion">Vulpix</th>
         
             </div>
         
@@ -69,10 +109,10 @@
         
             <div class="col-3 contenedor_colec">
         
-                <img class="foto_coleccion" src="./img/avatar.jpeg" alt="harry_potter">
+                <img class="foto_coleccion" src="./img/poke2.jpeg" alt="harry_potter">
                 <div class="section_btn2">
         
-                    <p class="titulo_coleccion">Avatar</p>
+                    <p class="titulo_coleccion">Absol</p>
                 
                     </div>
             
@@ -80,10 +120,10 @@
         
             <div class="col-3 contenedor_colec">
         
-                    <img class="foto_coleccion" src="./img/Coraje.jpeg" alt="series">
+                    <img class="foto_coleccion" src="./img/poke3.jpeg" alt="series">
                     <div class="section_btn2">
         
-                        <p class="titulo_coleccion">Coraje</p>
+                        <p class="titulo_coleccion">Togepic</p>
                     
                         </div>
                 
@@ -91,16 +131,68 @@
 
             <div class="col-3 contenedor_colec">
         
-                <img class="foto_coleccion" src="./img/pato.jpeg" alt="series">
+                <img class="foto_coleccion" src="./img/poke4.jpeg" alt="series">
                 <div class="section_btn2">
     
-                    <p class="titulo_coleccion">Pato</p>
+                    <p class="titulo_coleccion">Eevee</p>
                 
                     </div>
             
         </div>
         </div>
-       </section>
+        <div class="row coleccion_grilla2">
+            <div class="col-3 contenedor_colec">
+        
+            <img class="foto_coleccion" src="./img/poke5.jpeg" alt="pokemon">
+            <div class="section_btn2">
+        
+            <p class="titulo_coleccion">Snorlax</p>
+        
+            </div>
+        
+            </div>
+        
+            <div class="col-3 contenedor_colec">
+        
+                <img class="foto_coleccion" src="./img/poke6.jpeg" alt="harry_potter">
+                <div class="section_btn2">
+        
+                    <p class="titulo_coleccion">Umbreon</p>
+                
+                    </div>
+            
+            </div>
+        
+            <div class="col-3 contenedor_colec">
+        
+                    <img class="foto_coleccion" src="./img/pokr7.jpeg" alt="series">
+                    <div class="section_btn2">
+        
+                        <p class="titulo_coleccion">Espeon</p>
+                    
+                        </div>
+                
+            </div>
+
+            <div class="col-3 contenedor_colec">
+        
+                <img class="foto_coleccion" src="./img/poke8.jpeg" alt="series">
+                <div class="section_btn2">
+    
+                    <p class="titulo_coleccion">Pikachu</p>
+                
+                    </div>
+            
+        </div>
+        </div>-->
+
+
+
+
+        
+        
+        
+        
 
  <!-- FOOTER -->
  <footer class="footer">
@@ -125,5 +217,7 @@
 </footer>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="coleccionfav.js"></script>
 </body>
 </html>

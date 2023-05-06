@@ -14,28 +14,6 @@
     <title>Bordageek</title>
 </head>
 <body>
-   
-<!-- Modal HTML -->
-<div id="myModal" class="modal fade">
-<div class="modal-dialog">
-    <div class="modal-content">
-        <div class="modal-body">
-            <div class="titulo_boton">Bienvenid@ a Bordageek 💜</div>
-            
-        </div>
-        <div class="modal-body">
-           
-                <div class="form-group">
-                    <div class="input-group">
-                      <p>¿Cual es tu nombre?</p>
-                        <input id="name_l" type="text" class="form-control"  required="required">
-                    </div>
-                </div>
-              <button onclick="btnVamos()" id="botonV">¡Vamos!</button>
-        </div>
-    </div>
-</div>
-</div>
 
     <!-- HEADER -->
     <nav class="navbar navbar-expand-lg">
@@ -51,6 +29,9 @@
               </li>
               <li class="btn_nav">
                 <a class="nav-link" href="./coleccion.html">Colección</a>
+              </li>
+              <li class="btn_nav">
+                <a class="nav-link" href="coleccionfav.html">Favoritos</a>
               </li>
               <li class="btn_nav">
                 <a class="nav-link" href="./nosotros.html">Nosotros</a>
@@ -75,7 +56,14 @@
           font-family: Lora, serif;
           color: #bd80e8;
           font-style: italic;
-          padding-bottom: 10px;"></div>
+          padding-bottom: 10px;"><form style="    align-items: center;
+    display: inline-flex;
+    justify-content: center;" id="formulario"><input style="    height: 33px;
+    width: 38%;    outline-style: none;
+    background-color: #ffffff66;
+    border: 1px dashed #bd80e8e6;" id="holaSaludo" type="text"> 
+            <input id="btnFormPrimero" placeholder="Escribe tu nombre aquí ✨" type="submit" value="Entrar"></form></div>
+
             <h1 class="titulo">NUESTRO MUNDO GEEK<br>EN PIXEL ART</h1>
             <a class="btn_banner btn btn-success" href="./carrito.html" style="    font-size: 19px;
             font-family: Lora, sans-serif;
@@ -231,7 +219,8 @@
     integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
     crossorigin="anonymous"
   ></script>
-
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="interactive.js"></script>
 <script src="productos.js"></script>
 <script src="carro.js"></script>
 </body>

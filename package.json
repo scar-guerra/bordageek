@@ -17,5 +17,10 @@
   "bugs": {
     "url": "https://github.com/scar-guerra/bordageek/issues"
   },
-  "homepage": "https://github.com/scar-guerra/bordageek#readme"
+  "homepage": "https://github.com/scar-guerra/bordageek#readme",
+  "dependencies": {
+    "pokemon-sprites": "github:PokeAPI/sprites",
+    "sweetalert2": "11.7.3",
+    "toastify-js": "^1.12.0"
+  }
 }

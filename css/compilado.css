@@ -10,10 +10,18 @@
   width: auto;
   background-position: center;
 }
-
+button:focus {
+  outline: 1px dotted;
+  outline: none;
+}
 .btn:hover {
   color: white !important;
   background-color: #b394ff !important;
+  transition: 0.5s;
+}
+.btn_seg:hover {
+  color: white !important;
+  background-color: #a1d88b !important;
   transition: 0.5s;
 }
 img.card-img-top {
@@ -488,7 +496,7 @@ a.btn_coleccion:hover {
   display: flex;
 }
 
-.boton_form {
+#btnForm {
   background-color: #bd80e8;
   color: #fff;
   padding: 11px 25px;
@@ -496,6 +504,21 @@ a.btn_coleccion:hover {
   border: none;
   border-radius: 25px;
   font-size: 17px;
+}
+
+#btnFormPrimero{
+  background-color: #bd80e8;
+  color: #fff;
+  padding: 5px 19px;
+  font-family: lora;
+  border: none;
+  border-radius: 25px;
+  font-size: 17px;
+  margin-left: 10px;
+}
+
+input#holaSaludo {
+  font-size: 18px;
 }
 
 .footer {

@@ -1,11 +1,10 @@
-
 const carrito = [];
 let contenedor = document.getElementById("bordadosdestacados");
 
 cardBordados();
 function cardBordados(){
     for(const bordado of bordados){
-       contenedor.innerHTML += `
+       contenedor.innerHTML +=`
         <div class="card col-sm-2" style="width: 20rem; border: none; margin: 2rem;">
         
           <img class="card-img-top" src=${bordado.imagen} alt="bordados">
@@ -22,7 +21,7 @@ function cardBordados(){
 
            </div>
         </div>
-      `;
+        `;
     }
     bordados.forEach((bordado)=>{
       document.getElementById(`btn${bordado.id}`).addEventListener('click',()=>{
@@ -69,21 +68,24 @@ let btns= document.querySelector('.btn_shop');
 btns.addEventListener ('click', () => {
  if(btns = carrito){
 
-  Toastify({
-    text: ('Revisa tu Checkout! 😎'),
-    className: 'btn_shop',
-    duration:2000,
-    style: {
-      background: "#fff",
-      width:300,
-      fontSize: 17,
-      fontFamily: 'Lexend',
-      color: '#63b617',
-      border: '1px solid #63b617',
-      boxShadow: '5px 5px #63b61770',
-    
-    }
-  }).showToast();
+  Swal.fire({
+    title: '<div  style="color:#000;font-size:24px;font-weight: 400; font-family:Lora, sans-serif;">Se ingresó tu pedido con éxito</div>',
+    imageUrl: './img/shopping-bag.gif',
+    imageWidth: 170,
+    imageHeight: 170,
+    imageAlt: 'Custom image',
+    showCloseButton: true,
+    showCancelButton: false,
+    focusConfirm: false,
+    confirmButtonText:
+      '<div style="font-weight: 800;font-family:Lora, sans-serif; color:#fff !important;">OK</div>',
+    confirmButtonAriaLabel: 'Thumbs up, great!',
+    confirmButtonColor:'#9a63fd'
+  })
 
  }
  });
+
+
+
+
